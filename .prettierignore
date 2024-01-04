@@ -1,0 +1,11 @@
+# Git
+.git/
+
+# Node.js
+node_modules/
+
+# npm
+package-lock.json
+
+# Astro
+dist/
