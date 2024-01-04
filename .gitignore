@@ -1,0 +1,14 @@
+### Node.js ###
+
+# Dependency directory
+node_modules/
+
+### JetBrains IDE ###
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Directory-based project format
+!.idea/
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/self/
+*.iml
