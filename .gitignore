@@ -3,6 +3,10 @@
 # Dependency directory
 node_modules/
 
+### Astro ###
+
+dist/
+
 ### JetBrains IDE ###
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
