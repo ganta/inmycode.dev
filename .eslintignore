@@ -1,0 +1,11 @@
+# Git
+/.git/
+
+# JetBrains IDE
+/.idea/
+
+# Node.js
+/node_modules/
+
+# Astro
+/dist/
