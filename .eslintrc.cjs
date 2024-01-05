@@ -4,6 +4,7 @@
 /** @type {ConfigData} */
 const config = {
   root: true,
+  reportUnusedDisableDirectives: true,
   parserOptions: {
     ecmaVersion: "latest",
     ecmaFeatures: {
