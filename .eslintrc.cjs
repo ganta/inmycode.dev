@@ -29,10 +29,14 @@ const config = {
     react: {
       version: "detect",
     },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".js", ".ts", ".tsx"],
+    },
     "import/resolver": {
       node: {
         extensions: [".js", ".ts", ".tsx", ".astro", ".json"],
       },
+      typescript: true,
     },
   },
   rules: {
