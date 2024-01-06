@@ -8,10 +8,10 @@
     "preview": "astro preview",
     "lint": "run-p --print-label 'lint:*'",
     "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint . --ext .ts,.tsx,.astro --max-warnings 0",
+    "lint:eslint": "eslint . --max-warnings 0",
     "fix": "run-s --print-label 'fix:*'",
     "fix:prettier": "prettier --write .",
-    "fix:eslint": "eslint . --ext .ts,.tsx,.astro --fix"
+    "fix:eslint": "eslint . --fix"
   },
   "dependencies": {
     "@astrojs/react": "3.0.9",
@@ -21,11 +21,14 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.3.4",
+    "@eslint/js": "8.56.0",
+    "@types/eslint": "8.56.1",
     "@types/node": "20.10.6",
     "@types/react": "18.2.46",
     "@types/react-dom": "18.2.18",
     "@typescript-eslint/eslint-plugin": "6.17.0",
     "@typescript-eslint/parser": "6.17.0",
+    "astro-eslint-parser": "0.16.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
