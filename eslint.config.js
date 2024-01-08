@@ -118,8 +118,9 @@ const importConfig = {
         "newlines-between": "always",
         alphabetize: {
           order: "asc",
-          caseInsensitive: true,
+          orderImportKind: "asc",
         },
+        warnOnUnassignedImports: true,
       },
     ],
     "import/no-named-as-default": "off",
