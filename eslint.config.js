@@ -11,6 +11,7 @@ import importPlugin from "eslint-plugin-import";
 import jsxA11yPlugin from "eslint-plugin-jsx-a11y";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
+import unusedImportsPlugin from "eslint-plugin-unused-imports";
 import globals from "globals";
 
 /** @typedef {import("eslint").Linter.FlatConfig} FlatConfig */
@@ -97,6 +98,7 @@ const importConfig = {
   files: ["**/*.{js,ts,tsx,astro}"],
   plugins: {
     import: /** @type Plugin */ importPlugin,
+    "unused-imports": unusedImportsPlugin,
   },
   settings: {
     ...importPlugin.configs.typescript.settings,
@@ -121,6 +123,7 @@ const importConfig = {
       },
     ],
     "import/no-named-as-default": "off",
+    "unused-imports/no-unused-imports": "error",
   },
 };
 
