@@ -20,7 +20,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@astrojs/check": "0.3.4",
+    "@astrojs/check": "0.5.10",
     "@eslint/js": "8.57.0",
     "@types/eslint": "8.56.1",
     "@types/node": "20.10.6",
