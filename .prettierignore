@@ -9,3 +9,11 @@ package-lock.json
 
 # Astro
 dist/
+
+# Files supported by Biome
+*.js
+*.jsx
+*.ts
+*.tsx
+*.json
+*.jsonc
