@@ -1,0 +1,32 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.6.4/schema.json",
+  "files": {
+    "ignore": ["dist/**", ".idea/**", "**/*.yaml"],
+    "ignoreUnknown": true
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "javascript": {
+    "globals": ["Astro"]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "overrides": [
+    // Supporting formatting for Astro files are not enough yet.
+    // So, it leaves to Prettier to format them.
+    {
+      "include": ["**/*.astro"],
+      "formatter": {
+        "enabled": false
+      }
+    }
+  ]
+}
