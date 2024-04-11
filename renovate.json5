@@ -3,4 +3,10 @@
   configMigration: true,
   labels: ["renovate"],
   enabledManagers: ["nodenv"],
+  packageRules: [
+    {
+      matchManagers: ["nodenv"],
+      minimumReleaseAge: "1 week",
+    },
+  ],
 }
