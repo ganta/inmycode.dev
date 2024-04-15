@@ -23,7 +23,7 @@
   "devDependencies": {
     "@astrojs/check": "0.5.10",
     "@biomejs/biome": "1.6.4",
-    "@types/node": "20.10.6",
+    "@types/node": "20.12.7",
     "@types/react": "18.2.78",
     "@types/react-dom": "18.2.25",
     "globals": "15.0.0",
