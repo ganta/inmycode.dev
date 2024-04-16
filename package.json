@@ -6,13 +6,16 @@
     "start": "astro dev",
     "build": "astro check && tsc --noEmit && astro build",
     "preview": "astro preview",
-    "test": "vitest --passWithNoTests",
+    "test:unit": "vitest --passWithNoTests",
+    "test:e2e": "playwright test",
     "lint": "run-p --print-label 'lint:*'",
     "lint:prettier": "prettier --check .",
     "lint:biome": "biome check --error-on-warnings .",
     "fix": "run-s --print-label 'fix:*'",
     "fix:prettier": "prettier --write .",
-    "fix:biome": "biome check --apply ."
+    "fix:biome": "biome check --apply .",
+    "playwright": "playwright",
+    "playwright:install": "playwright install --with-deps"
   },
   "dependencies": {
     "@astrojs/react": "3.3.0",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@astrojs/check": "0.5.10",
     "@biomejs/biome": "1.7.0",
+    "@playwright/test": "1.43.1",
     "@types/node": "20.12.7",
     "@types/react": "18.2.79",
     "@types/react-dom": "18.2.25",
