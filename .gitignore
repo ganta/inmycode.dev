@@ -36,3 +36,12 @@ dist/
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+
+### Playwright ###
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Local Netlify folder
+.netlify
