@@ -18,7 +18,7 @@
     "playwright:install": "playwright install --with-deps"
   },
   "dependencies": {
-    "@astrojs/react": "3.3.1",
+    "@astrojs/react": "3.5.0",
     "astro": "4.9.3",
     "react": "18.3.1",
     "react-dom": "18.3.1"
